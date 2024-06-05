@@ -1,0 +1,165 @@
+{
+	"width": 640,
+	"height": 360,
+	"fps": 30,
+	"main": "./script/aez_bundle_main.js",
+	"assets": {
+		"glyph28": {
+			"type": "text",
+			"path": "files/1f8987b04c636ad42575.json",
+			"virtualPath": "text/glyph28.json"
+		},
+		"glyph72": {
+			"type": "text",
+			"path": "files/b3f1905bacd20ca03885.json",
+			"virtualPath": "text/glyph72.json"
+		},
+		"jin_000": {
+			"type": "audio",
+			"path": "files/c737e8788c8ed0b6ec4b",
+			"systemId": "sound",
+			"duration": 2984,
+			"virtualPath": "audio/jin_000"
+		},
+		"jin_002": {
+			"type": "audio",
+			"path": "files/205cc62cb3b8c8b403f0",
+			"systemId": "sound",
+			"duration": 1998,
+			"virtualPath": "audio/jin_002"
+		},
+		"se_001a": {
+			"type": "audio",
+			"path": "files/c8801a4af057df75c445",
+			"systemId": "sound",
+			"duration": 1237,
+			"virtualPath": "audio/se_001a"
+		},
+		"se_001c": {
+			"type": "audio",
+			"path": "files/678d965eb1a216cbcd1d",
+			"systemId": "sound",
+			"duration": 770,
+			"virtualPath": "audio/se_001c"
+		},
+		"se_002c": {
+			"type": "audio",
+			"path": "files/9b02e37f9785bb07e2c9",
+			"systemId": "sound",
+			"duration": 1005,
+			"virtualPath": "audio/se_002c"
+		},
+		"se_003": {
+			"type": "audio",
+			"path": "files/7ba5a21534c7f242d8a1",
+			"systemId": "sound",
+			"duration": 2171,
+			"virtualPath": "audio/se_003"
+		},
+		"se_004": {
+			"type": "audio",
+			"path": "files/2796ea0a544eff572970",
+			"systemId": "sound",
+			"duration": 1104,
+			"virtualPath": "audio/se_004"
+		},
+		"se_005A_mono": {
+			"type": "audio",
+			"path": "files/2ccbaccb221e22b1cfe3",
+			"systemId": "sound",
+			"duration": 2030,
+			"virtualPath": "audio/se_005A_mono"
+		},
+		"se_006B_mono": {
+			"type": "audio",
+			"path": "files/e4cd13450d06732c4514",
+			"systemId": "sound",
+			"duration": 1029,
+			"virtualPath": "audio/se_006B_mono"
+		},
+		"ui_common": {
+			"type": "image",
+			"width": 1024,
+			"height": 1024,
+			"path": "files/1c1e101adc4334d2129b.png",
+			"hint": {
+				"untainted": true
+			},
+			"virtualPath": "image/ui_common.png"
+		},
+		"ui": {
+			"type": "image",
+			"width": 1024,
+			"height": 1024,
+			"path": "files/1d5255ebdd2bf26c7eea.png",
+			"hint": {
+				"untainted": true
+			},
+			"virtualPath": "image/ui.png"
+		},
+		"se_100c": {
+			"type": "audio",
+			"path": "files/d4f4caf472ce77d3d54d",
+			"systemId": "sound",
+			"duration": 924,
+			"virtualPath": "audio/se_100c"
+		},
+		"ui_2": {
+			"type": "image",
+			"width": 1024,
+			"height": 1024,
+			"path": "files/aa009ae0668db2cb00a0.png",
+			"hint": {
+				"untainted": true
+			},
+			"virtualPath": "image/ui_2.png"
+		},
+		"glyph32_yellow": {
+			"type": "text",
+			"path": "files/39603f1b2f1746325b96.json",
+			"virtualPath": "text/glyph32_yellow.json"
+		},
+		"bgm_130": {
+			"type": "audio",
+			"path": "files/2476e1c5ebca99bec4d1",
+			"systemId": "music",
+			"duration": 11498,
+			"virtualPath": "audio/bgm_130"
+		},
+		"aez_bundle_main": {
+			"type": "script",
+			"global": true,
+			"path": "files/f086925699839f7a9594.js",
+			"virtualPath": "script/aez_bundle_main.js"
+		}
+	},
+	"environment": {
+		"nicolive": {
+			"supportedModes": [
+				"ranking"
+			]
+		},
+		"sandbox-runtime": "3",
+		"external": {
+			"send": "0"
+		},
+		"akashic-runtime": {
+			"version": "~3.7.19-0",
+			"flavor": "-canvas"
+		}
+	},
+	"globalScripts": [],
+	"moduleMainScripts": {
+		"@akashic-extension/akashic-timeline": "node_modules/@akashic-extension/akashic-timeline/lib/index.js"
+	},
+	"exportZipInfo": {
+		"version": "1.8.34",
+		"option": {
+			"strip": true,
+			"babel": true,
+			"hashFilename": true,
+			"targetService": "nicolive",
+			"nicolive": true
+		}
+	}
+}
